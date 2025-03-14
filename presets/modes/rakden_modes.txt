@@ -1,7 +1,7 @@
 #$ TITLE: rakden Betaflight modes and adjustments
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: MODES
-#$ STATUS: EXPERIMENTAL
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: mode, modes, adjustments, aux
 
 # modes

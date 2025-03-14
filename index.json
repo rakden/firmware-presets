@@ -157,13 +157,13 @@
   "presets": [
     {
       "fullPath": "presets/modes/rakden_modes.txt",
-      "hash": "46d3b4234539d490bf2bcfcda5df67467c673d33056a3a6488164b873b5a6bbf",
+      "hash": "ae07d2bb1e9e7ca1771eae22f2a2ac96632f7079803b2af86c8f7320e1f17343",
       "title": "rakden Betaflight modes and adjustments",
       "firmware_version": [
         "4.5"
       ],
       "category": "MODES",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "mode",
         "modes",
@@ -174,13 +174,13 @@
     },
     {
       "fullPath": "presets/osd/rakden_analog_osd.txt",
-      "hash": "8fbe4ab7ff1dc458b49bd1dbcf120c3668d1dc72da811753331ce0280cf50773",
+      "hash": "5a7f8eab44743c5ac928b485af6b7f7433acff7d73bf77fca021ccc749f1dbda",
       "title": "rakden Betaflight osd settings",
       "firmware_version": [
         "4.5"
       ],
       "category": "OSD",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "osd",
         "pal",
@@ -191,13 +191,13 @@
     },
     {
       "fullPath": "presets/rates/rakden_rates.txt",
-      "hash": "0b0823bf54c97f522d9c8df5635ac0d3ff591554076de71d7afba1f0f0bc1fa9",
+      "hash": "94fb1e9b1ba131343a3071c8cb0e79bab81201cdadb3260a82d203222a3feb9d",
       "title": "rakden Betaflight rates",
       "firmware_version": [
         "4.5"
       ],
       "category": "RATES",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "rates",
         "rate"

@@ -1,7 +1,7 @@
 #$ TITLE: rakden Betaflight rates
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: RATES
-#$ STATUS: EXPERIMENTAL
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: rates, rate
 
 rateprofile 0

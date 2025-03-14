@@ -1,7 +1,7 @@
 #$ TITLE: rakden Betaflight osd settings
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OSD
-#$ STATUS: EXPERIMENTAL
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: osd, pal, ntsc
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
