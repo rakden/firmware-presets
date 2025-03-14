@@ -1,0 +1,15 @@
+#$ TITLE: rakden Betaflight modes and adjustments
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: MODES
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: mode, modes, adjustments, aux
+
+# modes
+aux 0 0 0 1800 2100 0 0
+aux 1 1 2 1350 1650 0 0
+aux 2 13 1 1350 1650 0 0
+aux 3 35 2 1800 2100 0 0
+aux 4 36 1 1800 2100 0 0
+
+# adjustments
+adjrange 0 0 3 900 2100 12 3 0 0
