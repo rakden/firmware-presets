@@ -5,37 +5,40 @@
 #$ KEYWORDS: osd, pal, ntsc
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
-#$ OPTION BEGIN (UNCHECKED): NTSC
-set vcd_video_system = NTSC
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) Camera mode
 
-set osd_avg_cell_voltage_pos = 2433
-set osd_current_pos = 2440
-set osd_mah_drawn_pos = 2449
-set osd_tim_2_pos = 2455
+    #$ OPTION BEGIN (CHECKED): PAL
+        set vcd_video_system = PAL
 
-set osd_disarmed_pos = 2379
-set osd_warnings_pos = 2409
-set osd_flip_arrow_pos = 2359
+        set osd_avg_cell_voltage_pos = 2497
+        set osd_current_pos = 2504
+        set osd_mah_drawn_pos = 2513
+        set osd_tim_2_pos = 2519
 
-set osd_link_quality_pos = 2369
-set osd_rssi_dbm_pos = 2401
-set osd_throttle_pos = 2423
-#$ OPTION END
+        set osd_disarmed_pos = 2443
+        set osd_warnings_pos = 2473
+        set osd_flip_arrow_pos = 2423
 
+        set osd_link_quality_pos = 2433
+        set osd_rssi_dbm_pos = 2465
+        set osd_throttle_pos = 2487
+    #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): PAL
-set vcd_video_system = PAL
+    #$ OPTION BEGIN (UNCHECKED): NTSC
+        set vcd_video_system = NTSC
 
-set osd_avg_cell_voltage_pos = 2497
-set osd_current_pos = 2504
-set osd_mah_drawn_pos = 2513
-set osd_tim_2_pos = 2519
+        set osd_avg_cell_voltage_pos = 2433
+        set osd_current_pos = 2440
+        set osd_mah_drawn_pos = 2449
+        set osd_tim_2_pos = 2455
 
-set osd_disarmed_pos = 2443
-set osd_warnings_pos = 2473
-set osd_flip_arrow_pos = 2423
+        set osd_disarmed_pos = 2379
+        set osd_warnings_pos = 2409
+        set osd_flip_arrow_pos = 2359
 
-set osd_link_quality_pos = 2433
-set osd_rssi_dbm_pos = 2465
-set osd_throttle_pos = 2487
-#$ OPTION END
+        set osd_link_quality_pos = 2369
+        set osd_rssi_dbm_pos = 2401
+        set osd_throttle_pos = 2423
+    #$ OPTION END
+
+#$ OPTION_GROUP END
